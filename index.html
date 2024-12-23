@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emine Sude Özbay</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background: linear-gradient(135deg, #f0a7e1, #a8d3f2);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #ffe680;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            margin-top: 10px;
+            animation: slideUp 2s ease-in-out;
+        }
+
+        .bear-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin-top: 20px;
+            animation: bearSlideUp 2s ease-in-out;
+        }
+
+        .bear-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bearSlideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Emine Sude Özbay</h1>
+        <h2>İleri Programlama Teknikleri</h2>
+        <div class="bear-container">
+            <img src="C:/Users/emine/Downloads/ayicik.png" alt="Sevimli Ayıcık">
+
+
+        </div>
+    </div>
+</body>
+</html>
